@@ -103,7 +103,8 @@ console.log(array.slice(1, 4)); // => ["B", "C", "D"]
 console.log(array.slice(1)); // => ["B", "C", "D", "E"]
 console.log(array.slice(-1)); // => ["E"]
 console.log(array.slice(1, 1)); // => []
-console.log(array.slice(4, 1)); // => []
+console.log(array.slice(4, 1)); // => []    
+
 
 
 // 4, includes, some
