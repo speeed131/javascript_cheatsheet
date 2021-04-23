@@ -129,3 +129,33 @@ const isIncludedBlueColor = colors.some((obj) => {
 });
 console.log(isIncludedBlueColor); // => true
 
+
+/*配列に要素の追加
+
+`push` メソッド で末尾に要素を追加
+
+`pop` メソッドで末尾から要素を削除
+
+  unshift メソッドで配列の先頭へ要素を追加
+  shift メソッドで配列の先頭から要素を削除
+*/
+
+
+const array = ["A", "B", "C"];
+array.push("D"); // "D"を末尾に追加
+console.log(array); // => ["A", "B", "C", "D"]
+const poppedItem = array.pop(); // 最末尾の要素を削除し、その要素を返す
+console.log(poppedItem); // => "D"
+console.log(array); // => ["A", "B", "C"]
+
+
+
+
+const array = ["A", "B", "C"];
+array.unshift("S"); // "S"を先頭に追加
+console.log(array); // => ["S", "A", "B", "C"]
+const shiftedItem = array.shift(); // 先頭の要素を削除
+console.log(shiftedItem); // => "S"
+console.log(array); // => ["A", "B", "C"]
+
+
